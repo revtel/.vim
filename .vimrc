@@ -9,6 +9,7 @@ Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'preservim/nerdcommenter'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
