@@ -10,12 +10,14 @@ Plug 'easymotion/vim-easymotion'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'preservim/nerdcommenter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 
+
 set clipboard=unnamed
-set number
 set showtabline=2
+set number
 set cursorline
 set noswapfile
 set softtabstop=2
