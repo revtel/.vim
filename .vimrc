@@ -29,6 +29,7 @@ set linebreak
 set showcmd
 set noshowmode
 set scrolloff=5
+set wildmenu
 
 " search start
 set ignorecase "when search ignore the case upper or lower
