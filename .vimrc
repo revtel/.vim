@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline' 
 Plug 'bling/vim-bufferline'
+Plug 'qpkorr/vim-bufkill'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
