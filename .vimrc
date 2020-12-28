@@ -39,6 +39,7 @@ set showtabline=2
 set softtabstop=2
 set shiftwidth=2
 set scrolloff=5
+set expandtab
 
 syntax on
 filetype on
