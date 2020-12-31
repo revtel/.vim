@@ -39,10 +39,14 @@ set showtabline=2
 set softtabstop=2
 set shiftwidth=2
 set scrolloff=5
+set expandtab
+set hidden
 
 syntax on
 filetype on
 filetype indent on
 filetype plugin on
 
+" ctrlpvim
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git\|ios/Pods\|android/app/build'
 
