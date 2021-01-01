@@ -15,6 +15,7 @@ let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+let g:ale_completion_enabled=1
 
 "undercurl setting
 
@@ -27,3 +28,8 @@ highlight ALEError ctermbg=none cterm=undercurl ctermfg=red
 
 nmap sp <Plug>(ale_previous_wrap)
 nmap sn <Plug>(ale_next_wrap)
+nmap gd <Plug>(ale_go_to_definition)
+nmap gr <Plug>(ale_find_references)
+nmap RR <Plug>(ale_code_action)
+nmap RN <Plug>(ale_rename)
+
