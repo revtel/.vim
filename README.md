@@ -23,13 +23,14 @@
 ## Key Binding
 
 - normal mode
-  - `--` coment the current line the cursor on
-  - `ctrl + o` toggle nerdtree ( explore )
+  - `--` comment the current line the cursor on
+  - `ctrl + o` toggle nerdtree ( like vscode explore )
   - `space` enter easymotion mode
   - `ctrl + l` go next buffer
   - `ctrl + k` go previous buffer
+  - `ctrl + p` toggle ctrlP ( like vscode go anywhere )
 - visual mode
-  - `--` coment multiple lines what you selected
+  - `--` comment multiple lines what you selected
 - insert mode
 
 ## Directory Structure
