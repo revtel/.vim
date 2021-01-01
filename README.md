@@ -5,6 +5,7 @@
 - [Setup](#setup)
 - [Key Binding](#key-binding)
 - [Directory Structure](#directory-structure)
+- [Contact Us](#contact-us)
 
 ## Setup
 
