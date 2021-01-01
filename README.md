@@ -4,6 +4,7 @@
 
 - [Setup](#setup)
 - [Key Binding](#key-binding)
+- [Directory Structure](#directory-structure)
 
 ## Setup
 
@@ -30,3 +31,27 @@
 - visual mode
   - `--` coment multiple lines what you selected
 - insert mode
+
+## Directory Structure
+
+```
+.vim
+├── README.md
+├── autoload
+│   ├── RltvNmbr.vim
+│   └── plug.vim
+└── plugin
+    ├── RltvNmbr.vim
+    ├── RltvNmbrPlugin.vim
+    ├── airline.vim
+    ├── ale.vim
+    ├── bufferline.vim
+    ├── easymotion.vim
+    ├── gitgutter.vim
+    ├── nerdcommenter.vim
+    └── nerdtree.vim
+```
+
+## Contact Us
+
+[Revtel Tech](mailto:contact@revtel.tech)
