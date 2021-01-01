@@ -30,6 +30,7 @@
   - `ctrl + l` go next buffer
   - `ctrl + k` go previous buffer
   - `ctrl + p` toggle ctrlP ( like vscode go anywhere )
+  - `F8` trigger format ( include autopep8 and prettier )
 - visual mode
   - `--` comment multiple lines what you selected
 - insert mode
