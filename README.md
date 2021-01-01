@@ -31,6 +31,12 @@
   - `ctrl + k` go previous buffer
   - `ctrl + p` toggle ctrlP ( like vscode go anywhere )
   - `F8` trigger format ( include autopep8 and prettier )
+  - `gd` go to definition
+  - `gr` go find references
+  - `RR` trigger code action
+  - `RN` trigger rename
+  - `sn` go to next error or warning
+  - `sp` go to previous error or warning
 - visual mode
   - `--` comment multiple lines what you selected
 - insert mode
