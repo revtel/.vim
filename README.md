@@ -1,19 +1,19 @@
-# set up vim config
+# Vim Config
 
+## Outline
 
-- commenter setting 
+- [Setup](#setup)
 
-map `⌘/` to -- , then -- to `<plug>NERDCommenterToggle`
+## Setup
 
 ```
-vmap -- <plug>NERDCommenterToggle
-nmap -- <plug>NERDCommenterToggle
+  # zsh
+  $ git clone https://github.com/revtel/.vim.git  
+  $ echo "so $HOME/.vim/.vimrc" > $HOME/.vimrc
+  $ vim
 ```
 
-![](https://i.imgur.com/0Cv4qSM.gif)
-
-- relative line number toggle 
-
-use key <F4> to toggle relative line number
-
-![](https://i.imgur.com/WHuQ2GR.gif)
+```
+  # vim editor 
+  :PlugInstall
+```
