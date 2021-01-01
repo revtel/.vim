@@ -14,6 +14,11 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
+Plug 'Yggdroot/indentLine'
+
+"backend plugins start
+Plug 'tell-k/vim-autopep8'
+"backend plugins end
 
 "version control system plugins start
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -24,6 +29,12 @@ Plug 'airblade/vim-gitgutter'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'dense-analysis/ale'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'mlaursen/vim-react-snippets'
+Plug 'prettier/vim-prettier'
+Plug 'jiangmiao/auto-pairs'
 "frontend plugins end
 
 
@@ -56,6 +67,9 @@ syntax on
 filetype on
 filetype indent on
 filetype plugin on
+
+autocmd FileType javascript noremap <buffer> <F8> :Prettier<CR>
+autocmd FileType python noremap <buffer> <F8> :call Autopep8()<CR>
 
 " ctrlpvim
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git\|ios/Pods\|android/app/build'
