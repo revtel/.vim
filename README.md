@@ -43,6 +43,13 @@
   - `--` comment multiple lines what you selected
 - insert mode
 
+- ctrlp
+  - Press `ctrl + f` and `ctrl + b` to cycle between modes.
+  - Press `ctrl + d` to switch to filename only search instead of full path.
+  - Press `ctrl + r` to switch to regexp mode.
+  - Use `ctrl + j` , `ctrl + k` or the arrow keys to navigate the result list.
+  - Use `ctrl + t` or `ctrl + v`, `ctrl + x` to open the selected entry in a new tab or in a new split.
+
 ## Directory Structure
 
 ```
