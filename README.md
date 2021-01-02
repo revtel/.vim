@@ -44,7 +44,7 @@
 - visual mode
   - `--` comment multiple lines what you selected
 - insert mode
-  - To Be Continued ...
+  - `ctrl + e` trigger emmet expand
 - ctrlp
   - Press `ctrl + f` and `ctrl + b` to cycle between modes.
   - Press `ctrl + d` to switch to filename only search instead of full path.

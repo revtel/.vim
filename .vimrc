@@ -36,6 +36,7 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'mlaursen/vim-react-snippets'
 Plug 'prettier/vim-prettier'
 Plug 'jiangmiao/auto-pairs'
+Plug 'mattn/emmet-vim'
 "frontend plugins end
 
 
@@ -66,6 +67,7 @@ set scrolloff=5
 set expandtab
 set hidden
 set backspace=indent,eol,start
+
 
 syntax on
 filetype on
