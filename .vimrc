@@ -15,6 +15,7 @@ Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'Yggdroot/indentLine'
+Plug 'rafi/awesome-vim-colorschemes'
 
 "backend plugins start
 Plug 'tell-k/vim-autopep8'
@@ -40,6 +41,8 @@ Plug 'jiangmiao/auto-pairs'
 
 
 call plug#end()
+
+colorscheme deus
 
 set clipboard=unnamed
 set number
