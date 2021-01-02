@@ -28,6 +28,7 @@
     - `RR` trigger code action
     - `RN` trigger rename
     - `--` comment the current line the cursor on
+    - `FF` format code (include javascript(eslint,prettier) , python(autopep8))
   - Navigation
     - `gd` go to definition
     - `gr` go find references
