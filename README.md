@@ -36,13 +36,14 @@
     - `ctrl + l` go next buffer
     - `ctrl + k` go previous buffer
     - `ctrl + p` toggle ctrlP ( like vscode go anywhere )
+    - `F4` toggle RltvNmbr
   - Others
     - `ctrl + o` toggle nerdtree ( like vscode explore )
     - `space` enter easymotion mode
 - visual mode
   - `--` comment multiple lines what you selected
 - insert mode
-
+  - To Be Continued ...
 - ctrlp
   - Press `ctrl + f` and `ctrl + b` to cycle between modes.
   - Press `ctrl + d` to switch to filename only search instead of full path.
@@ -54,6 +55,7 @@
 
 ```
 .vim
+├── CHANGELOG.md
 ├── README.md
 ├── autoload
 │   ├── RltvNmbr.vim
@@ -64,6 +66,7 @@
     ├── airline.vim
     ├── ale.vim
     ├── bufferline.vim
+    ├── ctrlp.vim
     ├── easymotion.vim
     ├── gitgutter.vim
     ├── nerdcommenter.vim
