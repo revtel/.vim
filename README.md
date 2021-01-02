@@ -74,6 +74,26 @@
     └── nerdtree.vim
 ```
 
+## Contributors
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://avatars3.githubusercontent.com/u/10307875?s=400&u=4ca8b7f2af4a1a32dcdee594aca61a800262c421&v=4" width="100px" />
+        <br/>
+        <div>Richie Hsieh</div>
+      </td>
+      <td align="center">
+        <img src="https://avatars3.githubusercontent.com/u/63462677?s=460&u=a82006b332820e1da1fc774d3337c1656303c1f3&v=4" width="100px" />
+        <br/>
+        <div>Guy Chien</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## Contact Us
 
 [Revtel Tech](mailto:contact@revtel.tech)
