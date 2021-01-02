@@ -1,7 +1,7 @@
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'vim-airline/vim-airline' 
+Plug 'vim-airline/vim-airline'
 Plug 'bling/vim-bufferline'
 Plug 'qpkorr/vim-bufkill'
 Plug 'vim-airline/vim-airline-themes'
@@ -48,11 +48,11 @@ set noswapfile
 set splitbelow
 set splitright
 set ruler
-set linebreak 
+set linebreak
 set showcmd
 set noshowmode
 set wildmenu
-set ignorecase 
+set ignorecase
 set smartcase
 set incsearch
 set hlsearch
@@ -62,15 +62,12 @@ set shiftwidth=2
 set scrolloff=5
 set expandtab
 set hidden
+set backspace=indent,eol,start
 
 syntax on
 filetype on
 filetype indent on
 filetype plugin on
 
-autocmd FileType javascript noremap <buffer> <F8> :Prettier<CR>
-autocmd FileType python noremap <buffer> <F8> :call Autopep8()<CR>
-
-" ctrlpvim
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git\|ios/Pods\|android/app/build'
-
+"autocmd FileType javascript noremap <buffer> <F8> :Prettier<CR>
+"autocmd FileType python noremap <buffer> <F8> :call Autopep8()<CR>

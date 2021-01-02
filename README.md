@@ -30,7 +30,6 @@
   - `ctrl + l` go next buffer
   - `ctrl + k` go previous buffer
   - `ctrl + p` toggle ctrlP ( like vscode go anywhere )
-  - `F8` trigger format ( include autopep8 and prettier )
   - `gd` go to definition
   - `gr` go find references
   - `RR` trigger code action

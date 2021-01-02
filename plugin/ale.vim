@@ -23,8 +23,8 @@ let &t_Cs = "\e[4:3m"
 let &t_Ce = "\e[4:0m"
 hi SpellBad   guisp=red    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl ctermul=red
 hi SpellCap   guisp=yellow    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl ctermul=yellow
-highlight ALEWarn ctermbg=none cterm=undercurl ctermfg=yellow
-highlight ALEError ctermbg=none cterm=undercurl ctermfg=red
+highlight ALEWarn ctermbg=none cterm=undercurl
+highlight ALEError ctermbg=none cterm=undercurl
 
 nmap sp <Plug>(ale_previous_wrap)
 nmap sn <Plug>(ale_next_wrap)
@@ -32,4 +32,3 @@ nmap gd <Plug>(ale_go_to_definition)
 nmap gr <Plug>(ale_find_references)
 nmap RR <Plug>(ale_code_action)
 nmap RN <Plug>(ale_rename)
-
