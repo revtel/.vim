@@ -21,8 +21,8 @@ let g:ale_completion_enabled=1
 
 let &t_Cs = "\e[4:3m"
 let &t_Ce = "\e[4:0m"
-hi SpellBad   guisp=red    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl ctermul=red
-hi SpellCap   guisp=yellow    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl ctermul=yellow
+hi SpellBad   guisp=red    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl 
+hi SpellCap   guisp=yellow    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl
 highlight ALEWarn ctermbg=none cterm=undercurl
 highlight ALEError ctermbg=none cterm=undercurl
 
