@@ -17,6 +17,10 @@ Plug 'honza/vim-snippets'
 Plug 'Yggdroot/indentLine'
 Plug 'rafi/awesome-vim-colorschemes'
 
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+
 "backend plugins start
 Plug 'tell-k/vim-autopep8'
 "backend plugins end

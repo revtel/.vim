@@ -11,13 +11,13 @@
 
 ```
   # zsh
-  $ git clone https://github.com/revtel/.vim.git  
+  $ git clone https://github.com/revtel/.vim.git
   $ echo "so $HOME/.vim/.vimrc" > $HOME/.vimrc
   $ vim
 ```
 
 ```
-  # vim editor 
+  # vim editor
   :PlugInstall
 ```
 
@@ -96,6 +96,17 @@
     </tr>
   </tbody>
 </table>
+
+## Troubleshooting
+
+- if meet the under error message about deoplete
+
+  ```
+  E605: Exception not caught: [vim-hug-neovim-rpc] requires one of `:pythonx import [pynvim|neovim]` command to work
+  ```
+  - You can enable Python3 interface with pip:
+
+    `pip3 install --user pynvim`
 
 
 ## Contact Us
