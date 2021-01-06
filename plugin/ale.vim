@@ -4,6 +4,12 @@ let g:ale_fixers = {
 \   'python': ['autopep8'],
 \}
 
+
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'python': ['flake8','pylint'],
+\}
+
 let g:ale_sign_column_always = 1
 let g:ale_fix_on_save = 1
 let g:ale_popup_menu_enabled = 1
