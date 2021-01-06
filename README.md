@@ -87,6 +87,13 @@
         <div>Richie Hsieh</div>
       </td>
       <td align="center">
+        <a href="https://github.com/ChienHsiao">
+          <img src="https://avatars2.githubusercontent.com/u/36986507?s=460&v=4" width="100px" />
+        </a>
+        <br/>
+        <div>Chien Hsiao</div>
+      </td>
+      <td align="center">
         <a href="https://github.com/guychienll">
           <img src="https://avatars3.githubusercontent.com/u/63462677?s=460&u=a82006b332820e1da1fc774d3337c1656303c1f3&v=4" width="100px" />
         </a>
