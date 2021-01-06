@@ -14,6 +14,8 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
+
 Plug 'Yggdroot/indentLine'
 Plug 'rafi/awesome-vim-colorschemes'
 
