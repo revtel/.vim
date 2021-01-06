@@ -1,7 +1,7 @@
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines','trim_whitespace'],
 \   'javascript': ['prettier','eslint'],
-\   'python': ['autopep8','remove_trailing_lines','trim_whitespace'],
+\   'python': ['autopep8'],
 \}
 
 let g:ale_sign_column_always = 1
@@ -21,7 +21,7 @@ let g:ale_completion_enabled=1
 
 let &t_Cs = "\e[4:3m"
 let &t_Ce = "\e[4:0m"
-hi SpellBad   guisp=red    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl 
+hi SpellBad   guisp=red    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl
 hi SpellCap   guisp=yellow    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE term=underline cterm=undercurl
 highlight ALEWarn ctermbg=none cterm=undercurl
 highlight ALEError ctermbg=none cterm=undercurl

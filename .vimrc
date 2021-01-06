@@ -18,7 +18,6 @@ Plug 'Yggdroot/indentLine'
 Plug 'rafi/awesome-vim-colorschemes'
 
 "backend plugins start
-Plug 'tell-k/vim-autopep8'
 "backend plugins end
 
 "version control system plugins start
