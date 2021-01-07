@@ -54,7 +54,7 @@
 
 ## Postfix Completion
 
-![Imgur](https://i.imgur.com/R0CSwpP.gifv)
+![](https://i.imgur.com/QCnTMpH.gif)
 
 - javascript
    - log
