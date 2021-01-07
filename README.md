@@ -52,6 +52,24 @@
   - Use `ctrl + j` , `ctrl + k` or the arrow keys to navigate the result list.
   - Use `ctrl + t` or `ctrl + v`, `ctrl + x` to open the selected entry in a new tab or in a new split.
 
+## Postfix Completion
+
+![Imgur](https://i.imgur.com/R0CSwpP.gifv)
+
+- javascript
+   - log
+     - (postfix).log
+   - const
+     - const {$1:name} = (postfix) 
+   - let
+     - let {$1:name} = (postfix) 
+   - await
+     - await (postfix)
+   - return
+     - return (postfix)
+   - if
+     - if(postfix){{$1:expr}}
+
 ## Directory Structure
 
 ```

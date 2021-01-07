@@ -1,4 +1,25 @@
-snippet "([^\s]\w+)\.log" "console.log(postfix)" r 
+snippet "(^.*)\.log$" "console.log(postfix);" r
 console.log(`!p snip.rv = match.group(1)`);$0
 endsnippet
 
+snippet "(^.*)\.const$" "const (name) = (postfix);" r
+const $1 = `!p snip.rv = match.group(1)`;$2
+endsnippet
+
+snippet "(^.*)\.let$" "let (name) = (postfix);" r
+let $1 = `!p snip.rv = match.group(1)`;$2
+endsnippet
+
+snippet "(^.*)\.await$" "await (postfix)" r
+await `!p snip.rv = match.group(1)`$0
+endsnippet
+
+snippet "(^.*)\.return$" "return (postfix);" r
+return `!p snip.rv = match.group(1)`;$0
+endsnippet
+
+snippet "(^.*)\.if$" "if(postfix){expr}" r
+if(`!p snip.rv = match.group(1)`){
+  $1
+};$2
+endsnippet
