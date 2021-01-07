@@ -4,7 +4,9 @@
 
 - [Setup](#setup)
 - [Key Binding](#key-binding)
+- [Postfix Completion](#postfix-completion)
 - [Directory Structure](#directory-structure)
+- [Contributors](#contributors)
 - [Contact Us](#contact-us)
 
 ## Setup
