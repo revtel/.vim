@@ -2,12 +2,16 @@ snippet "(^.*)\.log$" "console.log(postfix);" r
 console.log(`!p snip.rv = match.group(1)`);$0
 endsnippet
 
+snippet "(^.*)\.json$" "JSON.stringify(postfix,null,2)" r
+JSON.stringify(`!p snip.rv = match.group(1)`,null,2)$0
+endsnippet
+
 snippet "(^.*)\.const$" "const (name) = (postfix);" r
-const $1 = `!p snip.rv = match.group(1)`;$2
+const ${1:name} = `!p snip.rv = match.group(1)`;$0
 endsnippet
 
 snippet "(^.*)\.let$" "let (name) = (postfix);" r
-let $1 = `!p snip.rv = match.group(1)`;$2
+let ${1:name} = `!p snip.rv = match.group(1)`;$0
 endsnippet
 
 snippet "(^.*)\.await$" "await (postfix)" r
@@ -20,6 +24,24 @@ endsnippet
 
 snippet "(^.*)\.if$" "if(postfix){expr}" r
 if(`!p snip.rv = match.group(1)`){
-  $1
-};$2
+   ${1:expr}
+};$0
 endsnippet
+
+# react postfix snippets
+snippet "(^.*)\.uses$" "const [(postfix),set(postfix)] = useState({initValue})" r
+const [`!p snip.rv = match.group(1)`,`!p snip.rv = 'set' + ''.join(x for x in match.group(1).title() if not x.isspace())`] = useState(${1:init});$0
+endsnippet
+
+snippet "(^.*)\.usec$" "const {name} = useContext((postfix))" r
+const ${1:name} = useContext(`!p snip.rv = match.group(1)`);$0
+endsnippet
+
+snippet "(^.*)\.user$" "const (postfix) = useRef({ref})" r
+const `!p snip.rv = match.group(1)` = useRef(${1:ref});$0
+endsnippet
+
+snippet "(^.*)\.usem$" "const (postfix) = useMemo(()=>((postfix)),[{dependencies}];)" r
+const ${2:name} = useMemo(()=>(`!p snip.rv = match.group(1)`),[${1:dependencies}]);$0
+endsnippet
+

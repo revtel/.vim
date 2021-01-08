@@ -56,21 +56,21 @@
 
 ## Postfix Completion
 
-![](https://i.imgur.com/QCnTMpH.gif)
+![](https://i.imgur.com/IeMgwg1.gif)
 
 - javascript
-   - log
-     - (postfix).log
-   - const
-     - const {$1:name} = (postfix) 
-   - let
-     - let {$1:name} = (postfix) 
-   - await
-     - await (postfix)
-   - return
-     - return (postfix)
-   - if
-     - if(postfix){{$1:expr}}
+   - log `(postfix).log`
+   - const `const ${1:name} = (postfix)`
+   - let `let ${1:name} = (postfix)` 
+   - await `await (postfix)`
+   - return `return (postfix)`
+   - if `if(postfix){${1:expr}}`
+   - json `JSON.stringify((postfix),null,2)`
+- javascript [React]
+   - uses `const [(postfix),(setPostfix)] = useState(${1:init})`
+   - usec `const ${1:name} = useContext((postfix))`
+   - user `const (postfix) = useRef(${1:ref})`
+   - usem `const ${1:name} = useMemo(()=>((postfix)),[${2:dependencies}])`
 
 ## Directory Structure
 
