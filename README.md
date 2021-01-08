@@ -1,4 +1,8 @@
-# Vim Config
+# .Vim 
+
+.vim is committed to creating a comfortable vim development environment for Python and React developers currently. 
+<br/>
+If you are the developer mentioned above, welcome to submit a pull request to contribute, let us embrace vim together.
 
 ## Outline
 
@@ -101,21 +105,21 @@
     <tr>
       <td align="center">
         <a href="https://github.com/whitedogg13">
-          <img src="https://avatars3.githubusercontent.com/u/10307875?s=400&u=4ca8b7f2af4a1a32dcdee594aca61a800262c421&v=4" width="100px" />
+          <img src="https://www.revtel.tech/static/27c58c6bb6f59c00bb890c4d2f9a823f/b7b73/Richie.png" width="100px" />
         </a>
         <br/>
         <div>Richie Hsieh</div>
       </td>
       <td align="center">
         <a href="https://github.com/ChienHsiao">
-          <img src="https://avatars2.githubusercontent.com/u/36986507?s=460&v=4" width="100px" />
+          <img src="https://www.revtel.tech/static/8e76175095cbd317769b5335cf2de64c/b7b73/Chien.png" width="100px" />
         </a>
         <br/>
         <div>Chien Hsiao</div>
       </td>
       <td align="center">
         <a href="https://github.com/guychienll">
-          <img src="https://avatars3.githubusercontent.com/u/63462677?s=460&u=a82006b332820e1da1fc774d3337c1656303c1f3&v=4" width="100px" />
+          <img src="https://www.revtel.tech/static/c0be7e3b863d6941f4946b68cd181ded/b7b73/Guy.png" width="100px" />
         </a>
         <br/>
         <div>Guy Chien</div>
