@@ -28,18 +28,25 @@ Plug 'honza/vim-snippets'
 Plug 'SirVer/ultisnips'
 "snippets end
 
-"frontend plugins start
-Plug 'yuezk/vim-js'
+"syntax hightlight 
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'sheerun/vim-polyglot'
+"syntax hightlight
+
+"frontend plugins start
 Plug 'dense-analysis/ale'
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'mlaursen/vim-react-snippets'
 Plug 'prettier/vim-prettier'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 "frontend plugins end
+
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+
+let g:deoplete#enable_at_startup = 1
 
 call plug#end()
 
@@ -67,8 +74,13 @@ set scrolloff=5
 set expandtab
 set hidden
 set backspace=indent,eol,start
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
 
 let mapleader = ","
+
 
 set noerrorbells visualbell t_vb=
 if has('autocmd')
@@ -78,8 +90,7 @@ endif
 "close the help.txt
 noremap <F1> <Nop>
 
-
-syntax on
-filetype on
-filetype indent on
-filetype plugin on
+augroup vimrc-sync-fromstart
+  autocmd!
+  autocmd BufEnter * :syntax sync maxlines=200
+augroup END

@@ -1,7 +1,6 @@
 # .Vim 
 
 .vim is committed to creating a comfortable vim development environment for Python and React developers currently. 
-<br/>
 If you are the developer mentioned above, welcome to submit a pull request to contribute, let us embrace vim together.
 
 ## Outline

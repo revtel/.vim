@@ -18,7 +18,8 @@ let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-let g:ale_completion_enabled=1
+let g:ale_completion_enabled = 0
+let g:ale_completion_autoimport = 1
 
 "undercurl setting
 let &t_Cs = "\e[4:3m"
