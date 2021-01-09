@@ -26,51 +26,99 @@
 ## Key Binding
 
 - normal mode
-  - Code Action
-    - `RR` trigger code action
-    - `RN` trigger rename
-    - `--` comment the current line the cursor on
-    - `FF` format code (include javascript(eslint,prettier) , python(autopep8))
-  - Navigation
-    - `gd` go to definition
-    - `gr` go find references
-    - `sn` go to next error or warning
-    - `sp` go to previous error or warning
-    - `ctrl + l` go next buffer
-    - `ctrl + k` go previous buffer
-    - `ctrl + p` toggle ctrlP ( like vscode go anywhere )
-    - `F4` toggle RltvNmbr
-  - Others
-    - `ctrl + o` toggle nerdtree ( like vscode explore )
-    - `space` enter easymotion mode
+
+  <details>
+  <summary>Code Action</summary>
+
+  Key | Action
+  --- | ---
+  `RR` | trigger code action
+  `RN` | trigger rename
+  `--` | comment the current line the cursor on
+  `FF` | format code (include javascript(eslint,prettier) , python(autopep8))
+
+  </details>
+
+  <details>
+  <summary>Navigation</summary>
+
+  Key | Action
+  --- | ---
+  `gd`| go to definition
+  `gr`| go find references
+  `sn`| go to next error or warning
+  `sp`| go to previous error or warning
+  `F4`| toggle RltvNmbr
+  `ctrl + l`| go next buffer
+  `ctrl + k`| go previous buffer
+  `ctrl + p`| toggle ctrlP ( like vscode go anywhere )
+
+  </details>
+
+  <details>
+  <summary>Others</summary>
+
+  Key | Action
+  --- | ---
+  `ctrl + o`| toggle nerdtree (like vscode explore)
+  `space`| enter easymotion mode
+
+  </details>
+
 - visual mode
-  - `--` comment multiple lines what you selected
+
+  <details>
+  <summary>Code Action</summary>
+
+  Key | Action
+  --- | ---
+  `--`| comment multiple lines what you selected
+
+  </details>
+
 - insert mode
-  - `ctrl + e` trigger emmet expand
-- ctrlp
-  - Press `ctrl + f` and `ctrl + b` to cycle between modes.
-  - Press `ctrl + d` to switch to filename only search instead of full path.
-  - Press `ctrl + r` to switch to regexp mode.
-  - Use `ctrl + j` , `ctrl + k` or the arrow keys to navigate the result list.
-  - Use `ctrl + t` or `ctrl + v`, `ctrl + x` to open the selected entry in a new tab or in a new split.
+
+  <details>
+  <summary>Code Action</summary>
+
+  Key | Action
+  --- | ---
+  `ctrl + e`| trigger emmet expand
+
+  </details>
 
 ## Postfix Completion
 
 ![](https://i.imgur.com/IeMgwg1.gif)
 
-- javascript
-   - log `(postfix).log`
-   - const `const ${1:name} = (postfix)`
-   - let `let ${1:name} = (postfix)` 
-   - await `await (postfix)`
-   - return `return (postfix)`
-   - if `if(postfix){${1:expr}}`
-   - json `JSON.stringify((postfix),null,2)`
-- javascript [React]
-   - uses `const [(postfix),(setPostfix)] = useState(${1:init})`
-   - usec `const ${1:name} = useContext((postfix))`
-   - user `const (postfix) = useRef(${1:ref})`
-   - usem `const ${1:name} = useMemo(()=>((postfix)),[${2:dependencies}])`
+
+<details>
+<summary>javascript</summary>
+  
+Postfix | Expand Result
+--- | ---
+`log` | (postfix).log
+`const` | const ${1:name} = (postfix)
+`let` | let ${1:name} = (postfix)
+`await` | await (postfix)
+`return` | return (postfix)
+`if` | if(postfix){${1:expr}}
+`json` | JSON.stringify((postfix),null,2)
+
+</details>
+
+
+<details>
+<summary>javascript [React]</summary>
+  
+Postfix | Expand Result
+--- | ---
+`uses` | const [(postfix),(setPostfix)] = useState(${1:init})
+`usec` | const ${1:name} = useContext((postfix))
+`user` | const (postfix) = useRef(${1:ref})
+`usem` | const ${1:name} = useMemo(()=>((postfix)),[${2:dependencies}])
+
+</details>
 
 ## Directory Structure
 

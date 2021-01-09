@@ -67,7 +67,16 @@ set scrolloff=5
 set expandtab
 set hidden
 set backspace=indent,eol,start
+
 let mapleader = ","
+
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
+
+"close the help.txt
+noremap <F1> <Nop>
 
 
 syntax on
