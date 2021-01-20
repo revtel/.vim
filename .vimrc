@@ -27,7 +27,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 "snippets end
 
-"syntax hightlight 
+"syntax hightlight
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'sheerun/vim-polyglot'
 "syntax hightlight
@@ -88,6 +88,8 @@ endif
 
 "close the help.txt
 noremap <F1> <Nop>
+nnoremap <silent> g, <C-o>
+nnoremap <silent> g. <C-i>
 
 augroup vimrc-sync-fromstart
   autocmd!

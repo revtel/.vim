@@ -51,6 +51,8 @@ If you are the developer mentioned above, welcome to submit a pull request to co
   `gr`| go find references
   `sn`| go to next error or warning
   `sp`| go to previous error or warning
+  `g.`| go to next cursor position
+  `g,`| go to previous cursor position
   `F4`| toggle RltvNmbr
   `ctrl + l`| go next buffer
   `ctrl + k`| go previous buffer
