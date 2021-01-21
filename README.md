@@ -5,14 +5,13 @@ If you are the developer mentioned above, welcome to submit a pull request to co
 
 ## Outline
 
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Key Binding](#key-binding)
-- [Postfix Completion](#postfix-completion)
 - [Directory Structure](#directory-structure)
 - [Contributors](#contributors)
 - [Contact Us](#contact-us)
 
-## Setup
+## Getting Started
 
 ```
   # zsh
@@ -91,27 +90,6 @@ If you are the developer mentioned above, welcome to submit a pull request to co
   `ctrl + e`| trigger emmet expand
 
   </details>
-
-## Postfix Completion
-
-![](https://i.imgur.com/IeMgwg1.gif)
-
-
-<details>
-<summary>javascript</summary>
-  
-Postfix | Expand Result
---- | ---
-`log` | (postfix).log
-`const` | const ${1:name} = (postfix)
-`let` | let ${1:name} = (postfix)
-`await` | await (postfix)
-`return` | return (postfix)
-`if` | if(postfix){${1:expr}}
-`json` | JSON.stringify((postfix),null,2)
-
-</details>
-
 
 <details>
 <summary>javascript [React]</summary>
