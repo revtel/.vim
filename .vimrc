@@ -7,7 +7,6 @@ Plug 'bling/vim-bufferline'
 Plug 'qpkorr/vim-bufkill'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'Yggdroot/indentLine'
 Plug 'rafi/awesome-vim-colorschemes'
@@ -44,6 +43,12 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+
+
 
 let g:deoplete#enable_at_startup = 1
 

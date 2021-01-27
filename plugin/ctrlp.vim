@@ -1,2 +1,0 @@
-" ctrlpvim
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git\|ios/Pods\|android/app/build'
