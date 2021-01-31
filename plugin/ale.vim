@@ -31,10 +31,10 @@ hi SpellCap   guisp=yellow    gui=undercurl guifg=NONE guibg=NONE ctermfg=NONE c
 hi ALEWarn ctermbg=none cterm=undercurl
 hi ALEError ctermbg=none cterm=undercurl
 
-noremap sp <Plug>(ale_previous_wrap)
-noremap sn <Plug>(ale_next_wrap)
-noremap gd <Plug>(ale_go_to_definition)
-noremap gr <Plug>(ale_find_references)
-noremap RR <Plug>(ale_code_action)
-noremap RN <Plug>(ale_rename)
-noremap FF <Plug>(ale_fix)
+noremap sp :ALEPreviousWrap<CR>
+noremap sn :ALENextWrap<CR>
+noremap gd :ALEGoToDefinition<CR>
+noremap gr :ALEFindReference<CR>
+noremap RR :ALECodeAction<CR>
+noremap RN :ALERename<CR>
+noremap FF :ALEFix<CR>
