@@ -91,18 +91,6 @@ If you are the developer mentioned above, welcome to submit a pull request to co
 
   </details>
 
-<details>
-<summary>javascript [React]</summary>
-  
-Postfix | Expand Result
---- | ---
-`uses` | const [(postfix),(setPostfix)] = useState(${1:init})
-`usec` | const ${1:name} = useContext((postfix))
-`user` | const (postfix) = useRef(${1:ref})
-`usem` | const ${1:name} = useMemo(()=>((postfix)),[${2:dependencies}])
-
-</details>
-
 ## Directory Structure
 
 ```
