@@ -8,6 +8,8 @@ let g:ale_linters = {
 \   'python': ['flake8','pylint'],
 \}
 
+let g:ale_python_autopep8_options = '--max-line-length=79'
+
 let g:ale_fix_on_save = 1
 let g:ale_sign_column_always = 1
 let g:ale_sign_error = '✗'
@@ -20,7 +22,6 @@ let g:ale_completion_enabled = 0
 let g:ale_completion_autoimport = 1
 let g:ale_popup_menu_enabled = 1
 let g:ale_completion_autoimport = 1
-
 
 
 "undercurl setting
