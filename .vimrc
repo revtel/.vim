@@ -40,12 +40,17 @@ Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 "frontend plugins end
 
+"backend plugins start
+Plug 'deoplete-plugins/deoplete-jedi', { 'for': 'python' }
+"backend plugins end
+
 Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
 
 
 
