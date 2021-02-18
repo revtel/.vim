@@ -1,11 +1,11 @@
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines','trim_whitespace'],
 \   'javascript': ['prettier','eslint'],
-\   'python': ['autopep8'],
+\   'python': ['black'],
 \}
 
 let g:ale_linters = {
-\   'python': ['pylint'],
+\   'python': ['mypy'],
 \}
 
 let g:ale_python_autopep8_options = '--max-line-length=79'
