@@ -9,7 +9,7 @@ let g:ale_linters = {
 \}
 
 let g:ale_python_black_options = '--line-length 79'
-let g:ale_python_mypy_options = '--config-file ~/.vim/config/mypy.ini'
+"let g:ale_python_mypy_options = '--config-file ~/.vim/config/mypy.ini'
 
 let g:ale_fix_on_save = 1
 let g:ale_sign_column_always = 1
