@@ -1,5 +1,7 @@
 # .Vim 
 
+![](https://i.imgur.com/tusckyr.png)
+
 .vim is committed to creating a comfortable vim development environment for Python and React developers currently. 
 If you are the developer mentioned above, welcome to submit a pull request to contribute, let us embrace vim together.
 
